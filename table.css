@@ -1,0 +1,17 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+table,th,td{
+    border: 1px solid black;
+}
+.parent{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent>table>thead:nth-child(1){
+    color: rgb(255, 0, 0);
+}
